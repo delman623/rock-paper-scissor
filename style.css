@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header{
+    width: 100%;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.button_section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10% 15%;
+    background-color: brown;
+}
+
+.rock, .paper, .sccior{
+    background-color: bisque;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.rock:hover, .paper:hover, .sccior:hover{
+    background-color:azure;
+}
+
+.footer{
+    background-color: blanchedalmond;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
